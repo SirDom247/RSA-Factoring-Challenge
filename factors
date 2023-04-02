@@ -20,7 +20,7 @@ def factorize(value):
 
 if len(argv) != 2:
     exit()
-    
+
 try:
     with open(argv[1]) as file:
         line = file.readline()
